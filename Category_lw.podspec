@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "Category_lw"
-  s.version      = "v0.0.1"
+  s.version      = "0.0.1"
   s.summary      = "好用的类应用好用的类应用"
 
 
