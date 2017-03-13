@@ -1,37 +1,27 @@
 
 
 Pod::Spec.new do |s|
+ s.name         = "Category_lw"
+ s.version      = "0.0.1"
+ s.summary      = "Just testing"        #简短介绍
 
-
-
-  s.name         = "Category_lw"
-  s.version      = "0.0.1"
-  s.summary      = "好用的类应用好用的类应用"
-
-
-  s.description  = <<-DESC
-	好用的类应用,好用的类应用,好用的类应用
+   s.description  = <<-DESC
+好用的类，好用的类，好用的类，好用的类
                    DESC
 
-  s.homepage     = "https://github.com/leeeGreat/Category_lw"
-
-
-
- 
-  s.license      = { :type => "MIT", :file => "LICENSE" }
-
-
- 
+s.homepage     = "https://github.com/leeeGreat/Category_lw"
+ s.license      = "MIT"
   s.author             = { "邢立伟" => "xinglw@qianbaoeco.com" }
-  
-  s.platform     = :ios, "7.0"
+s.source       = { :git => "https://github.com/leeeGreat/Category_lw.git", :tag => "v0.0.1" }
 
 
-  s.source       = { :git => "https://github.com/leeeGreat/Category_lw.git", :tag => "0.0.1" }
+
+   s.platform     = :ios, "9.0"
+s.requires_arc = true
+  s.source_files  =  "Category/**/*.{h,m}"
 
 
-   s.source_files  = "Category_lw/*.{h,m}"
-   s.framework  = "UIKit"
-	s.requires_arc = true
+   s.frameworks = "SomeFramework", "AnotherFramework"
+
 
 end
